@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_KEY;
-const AUTHOR_URL = "https://arpon-kapuria.github.io";
-const GITHUB_URL = "https://github.com/arpon-kapuria/ai-space";
+const AUTHOR_URL = "https://arponkapuria.github.io";
+const GITHUB_URL = "https://github.com/arponkapuria/ai-space";
 
 export function Contact() {
     const [feedbackOpen, setFeedbackOpen] = useState(false);
