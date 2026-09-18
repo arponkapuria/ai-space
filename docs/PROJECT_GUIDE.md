@@ -526,6 +526,8 @@ For reading order, refer to [READING_ORDER.md](READING_ORDER.md)
   - [x] Estimating GPUs Needed (Training vs. Inference)
 
 <!-- LLM Serving & Inference -->
+TODO: <!-- Add a separate serving node which will cover both ml/dl/llm and then inference engineering for llm only. there is a model serving node below. use that -->
+
 - [ ] Inference Engineering (overview)
   - [ ] Why Serving ≠ Training: The Latency / Throughput / Cost / Reliability Space
   - [ ] Roadmap of Optimization Techniques

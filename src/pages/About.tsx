@@ -38,16 +38,7 @@ export function About() {
         </div>
 
         <p className="mt-6 text-[11px] text-ink-muted">
-          This project was inspired by Matt Pocock's{" "}
-          < a
-            href="https://www.aicodingdictionary.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="text-ink-muted transition hover:text-ink"
-          >
-            The AI Coding Dictionary
-          </a>
-          .
+          Inspired by notes I made while learning — AI is used for proofreading and refinement.
         </p>
       </div>
     </div>
