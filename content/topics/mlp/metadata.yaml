@@ -1,0 +1,16 @@
+title: Multilayer Perceptron (MLP)
+slug: mlp
+categories:
+  - Deep Learning
+related:
+  - perceptron
+  - activation-functions
+  - backpropagation
+  - gradient-descent
+  - weight-initialization
+  - gradient-instability
+tags:
+  - neural-networks
+  - feedforward
+  - fundamentals
+difficulty: Intermediate

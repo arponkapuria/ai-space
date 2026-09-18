@@ -1,0 +1,1 @@
+Gradient instability is what happens when backpropagation's chain of multiplications, one per layer, shrinks toward zero (vanishing gradients) or grows explosively (exploding gradients) as it passes through a deep network. The deeper the network, the worse this compounding effect gets.

@@ -12,7 +12,7 @@ There's no ground truth to check your answer against, which makes this a genuine
 - **Dimensionality reduction** — find a lower-dimensional representation that keeps what matters about the data and discards the rest. Covered in [Dimensionality Reduction](/topic/dimensionality-reduction).
 - **Density estimation** — model the probability distribution the data was drawn from, so you can ask "how likely is this point" or generate new samples that look like it.
 
-These aren't mutually exclusive (two or more events can not occur at the same time) — PCA, for instance, is dimensionality reduction, but it's also implicitly finding the directions of highest variance, which is a kind of structure discovery in its own right.
+These aren't mutually exclusive (that clustering and dimensionality reduction can overlap) — PCA, for instance, is dimensionality reduction, but it's also implicitly finding the directions of highest variance, which is a kind of structure discovery in its own right.
 
 <details>
 <summary>Math: framing unsupervised learning</summary>

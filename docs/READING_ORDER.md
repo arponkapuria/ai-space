@@ -48,10 +48,14 @@ normalization-techniques
 optimizers
 learning-rate-scheduling
 generalization-techniques
+weight-averaging
+representation-learning
+encoder-decoder
 autoencoders
 self-supervised-learning
-gnn
+contrastive-learning
 transfer-learning
+gnn
 
 # ===== Natural Language Processing =====
 classical-nlp
@@ -130,6 +134,7 @@ claude-family
 llama-family
 other-open-weight-models
 llm-evaluation
+llm-interpretability
 llm-safety-and-security
 
 # ===== Production AI =====

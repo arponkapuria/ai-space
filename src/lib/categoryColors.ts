@@ -7,9 +7,9 @@ import type { Theme } from "../store/themeStore";
 // borders against a white panel. Every pair keeps roughly the same hue,
 // just re-balanced for contrast in its own theme.
 const CATEGORY_COLORS_DARK: Record<Category, string> = {
-  "Mathematics": "#4DA3FF",
+  "Mathematics": "#FFB84D",
   "Machine Learning": "#3DDC84",
-  "Deep Learning": "#FFB84D",
+  "Deep Learning": "#4DA3FF",
   "Natural Language Processing": "#FF5C8A",
   "Computer Vision": "#FF8A3D",
   "Generative AI": "#B47CFF",
@@ -18,9 +18,9 @@ const CATEGORY_COLORS_DARK: Record<Category, string> = {
 };
 
 const CATEGORY_COLORS_LIGHT: Record<Category, string> = {
-  "Mathematics": "#007AFF",
+  "Mathematics": "#FF9500",
   "Machine Learning": "#34C759",
-  "Deep Learning": "#FF9500",
+  "Deep Learning": "#007AFF",
   "Natural Language Processing": "#FF2D55",
   "Computer Vision": "#FF6A00",
   "Generative AI": "#AF52DE",

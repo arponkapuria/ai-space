@@ -22,7 +22,7 @@ $$
 \mathcal{L} = -\frac{1}{n}\sum_{i=1}^n \left[y_i \log \hat{y}_i + (1 - y_i)\log(1 - \hat{y}_i)\right]
 $$
 
-This isn't an arbitrary choice — it comes directly out of maximizing the likelihood of the labels under the model (see  [Probability & Statistics](/topic/probabilities-and-statistics) for the general MLE framework this is an instance of). It also matters practically: if you used MSE with a sigmoid output instead, the resulting loss surface is non-convex and prone to flat regions where gradients nearly vanish, making it much harder to optimize reliably. Cross-entropy with a sigmoid stays convex, which is exactly the property you want for [Gradient Descent](/topic/gradient-descent) to work well.
+This isn't an arbitrary choice — it comes directly out of maximizing the likelihood of the labels under the model (see  [Probability & Statistics](/topic/probability-and-statistics) for the general MLE framework this is an instance of). It also matters practically: if you used MSE with a sigmoid output instead, the resulting loss surface is non-convex and prone to flat regions where gradients nearly vanish, making it much harder to optimize reliably. Cross-entropy with a sigmoid stays convex, which is exactly the property you want for [Gradient Descent](/topic/gradient-descent) to work well.
 
 <details>
 <summary>Math: the gradient turns out remarkably clean</summary>

@@ -1,0 +1,1 @@
+Contrastive learning trains a model by pulling together representations of two augmented views of the same input while pushing apart representations of different inputs, forcing the model to learn features that survive superficial changes instead of the changes themselves.

@@ -1,0 +1,1 @@
+Normalization techniques rescale a layer's activations back to a consistent range at every training step, which keeps gradients well-behaved throughout training instead of only at initialization.

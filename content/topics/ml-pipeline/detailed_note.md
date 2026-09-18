@@ -128,7 +128,7 @@ X_train_bal, y_train_bal = smote.fit_resample(X_train_processed, y_train)
 
 Start with a simple **baseline model** before trying more complex ones — you need something to measure the added complexity against. As you move to more expressive models, keep an eye on **underfitting** (too simple to capture the pattern) versus **overfitting** (fits training noise, doesn't generalize) — the practical face of the bias-variance tradeoff. 
 
-Picking a good baseline isn't arbitrary — it depends on the problem type, data size, and how interpretable the result needs to be, which is exactly what the [ML Algorithm Selection Guide](/topic/ml-algorithm-selection-guide) walks through. Training also means choosing [Loss Functions](/topic/loss-function) — the thing the algorithm is actually minimizing (e.g. log loss for classification, MSE for regression) — and that choice should track the success metric from problem framing, not just default to whatever the library ships with.
+Picking a good baseline isn't arbitrary — it depends on the problem type, data size, and how interpretable the result needs to be, which is exactly what the [ML Algorithm Selection Guide](/topic/ml-algorithm-selection-guide) walks through. Training also means choosing [Loss Functions](/topic/loss-functions) — the thing the algorithm is actually minimizing (e.g. log loss for classification, MSE for regression) — and that choice should track the success metric from problem framing, not just default to whatever the library ships with.
 
 **Tech stack:** `scikit-learn` for classical baselines, XGBoost/LightGBM/CatBoost for gradient-boosted trees (a common strong tabular baseline), PyTorch/TensorFlow once you move to deep learning.
 

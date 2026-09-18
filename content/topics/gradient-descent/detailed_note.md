@@ -62,7 +62,7 @@ Variance of the estimate shrinks as $m$ grows, roughly like $1/m$, which is the 
 
 Whether gradient descent actually reaches a good solution — and how reliably — depends heavily on the shape of the loss surface. For a convex loss (linear regression's MSE is a clean example), gradient descent with a reasonable learning rate is guaranteed to converge to the global minimum. For the non-convex loss surfaces of neural networks, there's no such guarantee — you can get stuck near saddle points or settle into a local minimum that isn't the best one available, though in practice, for large enough networks, most local minima found this way tend to generalize reasonably well anyway.
 
-The learning rate itself interacts with this: constant learning rates are rarely optimal, which is why learning rate schedules exist. See [Optimization Theory](/topic/optmization-theory) for the deeper theory behind convexity and saddle points.
+The learning rate itself interacts with this: constant learning rates are rarely optimal, which is why learning rate schedules exist. See [Optimization Theory](/topic/optimization-theory) for the deeper theory behind convexity and saddle points.
 
 ## Further reading
 

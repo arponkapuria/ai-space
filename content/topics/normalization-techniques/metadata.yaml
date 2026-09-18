@@ -1,0 +1,15 @@
+title: Normalization Techniques
+slug: normalization-techniques
+categories:
+  - Deep Learning
+related:
+  - weight-initialization
+  - gradient-instability
+  - backpropagation
+  - mlp
+  - transformer
+tags:
+  - neural-networks
+  - training
+  - optimization
+difficulty: Intermediate

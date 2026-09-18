@@ -1,0 +1,15 @@
+title: Perceptron
+slug: perceptron
+categories:
+  - Deep Learning
+related:
+  - supervised-learning
+  - logistic-regression
+  - mlp
+  - activation-functions
+  - backpropagation
+tags:
+  - neural-networks
+  - classification
+  - fundamentals
+difficulty: Beginner

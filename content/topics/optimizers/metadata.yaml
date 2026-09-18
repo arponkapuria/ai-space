@@ -1,0 +1,16 @@
+title: Optimizers
+slug: optimizers
+categories:
+  - Deep Learning
+related:
+  - gradient-descent
+  - backpropagation
+  - learning-rate-scheduling
+  - regularization
+  - gradient-instability
+  - pretraining
+tags:
+  - neural-networks
+  - training
+  - optimization
+difficulty: Intermediate

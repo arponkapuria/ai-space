@@ -1,0 +1,1 @@
+Self-supervised learning trains a model on unlabeled data by automatically constructing a fill-in-the-blank task from the data's own structure — hiding or transforming part of it and training the model to recover or reason about what was hidden — so no human-provided labels are needed at all.

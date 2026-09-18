@@ -1,0 +1,15 @@
+title: Encoder-Decoder
+slug: encoder-decoder
+categories:
+  - Deep Learning
+related:
+  - representation-learning
+  - autoencoders
+  - attention-mechanism
+  - transformer
+  - mlp
+tags:
+  - neural-networks
+  - architecture
+  - fundamentals
+difficulty: Intermediate

@@ -157,52 +157,73 @@ For reading order, refer to [READING_ORDER.md](READING_ORDER.md)
 
 ### Deep Learning
 
-- [ ] Perceptron
-- [ ] MLP
-  - [ ] Kolmogorov-Arnold Networks (KAN) — brief mention as a recent alternative
-- [ ] Activation Functions
-  - [ ] Sigmoid / Tanh
-  - [ ] ReLU / Leaky ReLU
-  - [ ] GELU / Swish
-- [ ] Backpropagation
-- [ ] Gradient Instability
-  - [ ] Vanishing Gradients
-  - [ ] Exploding Gradients
-- [ ] Weight Initialization
-  - [ ] Xavier / Glorot
-  - [ ] He Initialization
-- [ ] Normalization Techniques
-  - [ ] BatchNorm
-  - [ ] LayerNorm
-  - [ ] RMSNorm
-- [ ] Optimizers
-  - [ ] SGD
-  - [ ] Momentum
-  - [ ] Nesterov Accelerated Gradient
-  - [ ] Adagrad
-  - [ ] RMSprop
-  - [ ] Adam / AdamW
-- [ ] Learning Rate Scheduling
-  - [ ] Step Decay
-  - [ ] Cosine Annealing
-  - [ ] Warmup
-  - [ ] One-Cycle Policy
-- [ ] Generalization Techniques
-  - [ ] Dropout
-  - [ ] Weight Decay
-  - [ ] Early Stopping
-  - [ ] Data Augmentation
-  - [ ] Label Smoothing
-- [ ] Autoencoders
-  - [ ] Representation Learning
-- [ ] Self-Supervised Learning
-  - [ ] Contrastive Learning
-  - [ ] Pretext Tasks
-- [ ] GNN
-  - [ ] GCN
-  - [ ] GraphSAGE
-  - [ ] GAT
-- [ ] Transfer Learning
+- [x] Perceptron
+  - [ ] Practice
+- [x] MLP
+  - [x] Kolmogorov-Arnold Networks (KAN) — brief mention as a recent alternative
+  - [ ] Practice
+- [x] Activation Functions
+  - [x] Sigmoid / Tanh
+  - [x] ReLU / Leaky ReLU
+  - [x] GELU / Swish
+  - [ ] Practice
+- [x] Backpropagation
+  - [ ] Practice
+- [x] Gradient Instability
+  - [x] Vanishing Gradients
+  - [x] Exploding Gradients
+- [x] Weight Initialization
+  - [x] Zero / Random
+  - [x] Xavier / Glorot
+  - [x] He Initialization
+  - [ ] Practice
+- [x] Normalization Techniques
+  - [x] BatchNorm
+  - [x] LayerNorm
+  - [x] RMSNorm
+  - [ ] Practice
+- [x] Optimizers
+  - [x] SGD
+  - [x] Momentum
+  - [x] Nesterov Accelerated Gradient
+  - [x] Adagrad
+  - [x] RMSprop
+  - [x] Adam / AdamW
+  - [ ] Practice
+- [x] Learning Rate Scheduling
+  - [x] Scheduled: Step Decay, Exponential Decay, Linear Decay, CosineAnnealing
+  - [x] Scheduled: Warmup
+  - [x] Scheduled One-Cycle Policy
+  - [x] Reactive: ReduceLROnPlateau
+  - [ ] Practice
+- [x] Generalization Techniques
+  - [x] Dropout
+  - [x] Weight Decay
+  - [x] Early Stopping
+  - [x] Data Augmentation
+  - [x] Label Smoothing
+  - [ ] Practice
+- [x] Weight Averaging
+  - [x] Stochastic Weight Averaging (SWA)
+  - [x] Exponential Moving Average (EMA)
+- [x] Representation Learning
+- [x] Encoder-Decoder
+- [x] Autoencoders
+  - [x] Denoising Autoencoder
+  - [x] Sparse Autoencoders
+  - [x] Variational Autoencoder (brief — see own node in Generative AI)
+- [x] Self-Supervised Learning
+  - [x] Pretext Tasks
+  - [x] Contrastive Learning (brief — see own node)
+- [x] Contrastive Learning
+  - [x] Loss function
+  - [x] Different frameworks
+- [x] Transfer Learning
+  - [x] Feature Extraction vs. Fine-Tuning
+- [x] GNN
+  - [x] GCN
+  - [x] GraphSAGE
+  - [x] GAT
 
 ### Natural Language Processing
 
@@ -225,7 +246,6 @@ For reading order, refer to [READING_ORDER.md](READING_ORDER.md)
 - [ ] LSTM
   - [ ] GRU (variant)
 - [ ] Seq2Seq 
-  - [ ] Encoder-Decoder
   - [ ] Teacher Forcing
   - [ ] Beam Search
 - [ ] NLP Evaluation Metrics
@@ -350,6 +370,7 @@ For reading order, refer to [READING_ORDER.md](READING_ORDER.md)
 <!-- Phase 1: Building & Aligning the Model -->
 - [ ] Pretraining
   - [ ] Data Curation & Data Mixture
+  - [ ] LLM-Scale Optimizers (AdamW, Adafactor, LAMB, Muon, Adam-mini)
   - [ ] Scaling Laws
     - [ ] Chinchilla / Compute-Optimal Scaling
   - [ ] Compute-Optimal Training
@@ -452,6 +473,11 @@ For reading order, refer to [READING_ORDER.md](READING_ORDER.md)
   - [ ] LLM-as-Judge
   - [ ] Human Evaluation Process
   - [ ] Hallucination Detection & Mitigation
+- [ ] LLM Interpretability
+  - [ ] Sparse Autoencoders for Feature Extraction
+  - [ ] Probing Classifiers
+  - [ ] Attention Visualization
+  - [ ] Mechanistic Interpretability (overview)
 - [ ] LLM Safety & Security
   - [ ] Prompt Injection
   - [ ] Jailbreaking

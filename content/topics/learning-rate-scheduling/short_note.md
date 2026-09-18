@@ -1,0 +1,1 @@
+Learning rate scheduling changes the learning rate over the course of training instead of keeping it fixed, typically starting low or ramping up gently (warmup) and then decaying it as training progresses, so early training can move fast while late training can settle precisely into a good solution.

@@ -1,0 +1,1 @@
+A perceptron is the simplest possible neural network: it takes weighted inputs, sums them, and fires a 1 or 0 based on whether that sum crosses a threshold. It can only learn straight-line decision boundaries, and that single limitation — it can't solve XOR — is what pushed the field toward stacking multiple layers together into deeper networks.

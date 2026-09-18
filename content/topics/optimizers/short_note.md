@@ -1,0 +1,1 @@
+An optimizer decides how to turn a gradient into an actual weight update, using tricks like remembering past directions and adjusting step sizes per weight to train faster and more reliably than plain gradient descent.

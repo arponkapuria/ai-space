@@ -1,0 +1,13 @@
+title: GNN (Graph Neural Networks)
+slug: gnn
+categories:
+  - Deep Learning
+related:
+  - mlp
+  - attention-mechanism
+  - representation-learning
+tags:
+  - neural-networks
+  - graphs
+  - architecture
+difficulty: Advanced

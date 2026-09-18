@@ -1,0 +1,1 @@
+A Multilayer Perceptron stacks layers of perceptron-like units, each followed by a nonlinear activation function, so that the network as a whole can learn curved, complex decision boundaries instead of just a straight line. That nonlinearity between layers is what makes depth actually useful — without it, stacking layers mathematically collapses back into a single linear model.

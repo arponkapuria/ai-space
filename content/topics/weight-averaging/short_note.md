@@ -1,0 +1,1 @@
+Weight averaging improves a trained model by blending together weights from several points during or after training instead of keeping only the very last snapshot, since the last snapshot is somewhat arbitrary and a blended version tends to be steadier and generalize slightly better.

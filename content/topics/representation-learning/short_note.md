@@ -1,0 +1,1 @@
+Representation learning is the goal of training a model to produce a compact, reusable encoding of raw data — like an image or sentence turned into a vector — that's useful across many downstream tasks, instead of learning features from scratch for just one task at a time.

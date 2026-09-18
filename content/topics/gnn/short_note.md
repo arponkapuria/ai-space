@@ -1,0 +1,1 @@
+A Graph Neural Network learns from data structured as a graph — nodes with irregular, variable connections, like a social network or a molecule — by having each node repeatedly aggregate information from its neighbors, so its final representation absorbs context from its surrounding graph structure, not just its own features.

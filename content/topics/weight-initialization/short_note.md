@@ -1,0 +1,1 @@
+Weight initialization is the choice of starting values for a network's weights before training begins, and picking the right random scale — not too big, not too small, not all identical — is what keeps gradients from exploding or vanishing right from the first step.

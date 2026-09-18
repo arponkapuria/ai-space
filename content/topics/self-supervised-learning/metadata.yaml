@@ -1,0 +1,17 @@
+title: Self-Supervised Learning
+slug: self-supervised-learning
+categories:
+  - Deep Learning
+related:
+  - autoencoders
+  - representation-learning
+  - transfer-learning
+  - self-supervised-vision
+  - bert
+  - gpt-1
+  - contrastive-learning
+tags:
+  - neural-networks
+  - unsupervised-learning
+  - pretraining
+difficulty: Advanced

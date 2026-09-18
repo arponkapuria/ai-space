@@ -1,0 +1,16 @@
+title: Weight Averaging (SWA & EMA)
+slug: weight-averaging
+categories:
+  - Deep Learning
+related:
+  - generalization-techniques
+  - optimizers
+  - gradient-descent
+  - diffusion-models
+  - self-supervised-vision
+  - self-supervised-learning
+tags:
+  - training
+  - optimization
+  - model-stability
+difficulty: Intermediate

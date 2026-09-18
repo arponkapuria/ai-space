@@ -1,0 +1,1 @@
+An encoder-decoder architecture splits a network into two halves — an encoder that compresses input into a representation, and a decoder that expands that representation into the desired output — a pattern reused across autoencoders, sequence-to-sequence models, and image segmentation networks alike.

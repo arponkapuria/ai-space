@@ -1,0 +1,1 @@
+An autoencoder is an encoder-decoder trained to reconstruct its own input after squeezing it through a narrow bottleneck, so whatever the bottleneck learns to preserve becomes a compact, useful representation of the data, with no labels required.

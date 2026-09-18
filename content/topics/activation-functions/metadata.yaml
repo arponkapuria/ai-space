@@ -1,0 +1,15 @@
+title: Activation Functions
+slug: activation-functions
+categories:
+  - Deep Learning
+related:
+  - perceptron
+  - mlp
+  - backpropagation
+  - gradient-instability
+  - weight-initialization
+tags:
+  - neural-networks
+  - nonlinearity
+  - fundamentals
+difficulty: Beginner

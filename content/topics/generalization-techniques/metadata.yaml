@@ -1,0 +1,15 @@
+title: Generalization Techniques
+slug: generalization-techniques
+categories:
+  - Deep Learning
+related:
+  - regularization
+  - bias-variance-tradeoff
+  - optimizers
+  - mlp
+  - weight-averaging
+tags:
+  - neural-networks
+  - training
+  - overfitting
+difficulty: Intermediate

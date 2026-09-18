@@ -1,0 +1,15 @@
+title: Backpropagation
+slug: backpropagation
+categories:
+  - Deep Learning
+related:
+  - mlp
+  - gradient-descent
+  - activation-functions
+  - gradient-instability
+  - weight-initialization
+tags:
+  - neural-networks
+  - training
+  - fundamentals
+difficulty: Intermediate

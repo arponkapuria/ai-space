@@ -1,0 +1,1 @@
+Generalization techniques are training-time tools like Dropout, Weight Decay, Early Stopping, Data Augmentation, and Label Smoothing that stop a deep network from simply memorizing its training data, so it performs well on data it hasn't seen before.

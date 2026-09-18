@@ -1,0 +1,1 @@
+Transfer learning reuses a model's representation learned on one task or dataset for a new task, either by freezing it and training only a small new head (feature extraction) or by continuing to train some or all of the pretrained weights on the new task's data (fine-tuning), so a new task doesn't need to be learned entirely from scratch.

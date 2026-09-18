@@ -1,0 +1,14 @@
+title: Transfer Learning
+slug: transfer-learning
+categories:
+  - Deep Learning
+related:
+  - representation-learning
+  - self-supervised-learning
+  - peft
+  - instruction-tuning
+tags:
+  - neural-networks
+  - pretraining
+  - fine-tuning
+difficulty: Intermediate
